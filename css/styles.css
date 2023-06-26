@@ -10,14 +10,59 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
+/*       Reset default styles */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+/*       BODY        */
 .page {
   color: var(--text);
   background-color: #fff;
   font-family: "Roboto", sans-serif;
 }
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*  header */
-/* hdhhdhdh */
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   text-decoration: none;
@@ -28,11 +73,17 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  margin-right: 76px;
 }
 
 .logo-part {
   color: var(--dark);
 }
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -54,17 +105,23 @@
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .auth-nav {
   color: var(--text);
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
 }
 
 .auth-nav:hover,
 .auth-nav:focus {
   color: var(--pressed-state);
 }
+
 /* hero */
+
 .hero {
   background-color: var(--dark);
 }
@@ -85,7 +142,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -149,15 +205,10 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .sorting-button:hover,
 .sorting-button:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
-}
-
-img {
-  display: block;
 }
