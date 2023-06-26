@@ -68,7 +68,6 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo {
@@ -87,6 +86,9 @@ img {
   color: var(--dark);
 }
 
+.menu-item {
+  padding: 24px 0;
+}
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
