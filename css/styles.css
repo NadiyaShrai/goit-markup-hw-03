@@ -112,7 +112,6 @@ img {
   color: var(--text);
   display: flex;
   align-items: center;
-  margin-left: 40px;
 }
 
 .auth-nav:hover,
@@ -120,6 +119,9 @@ img {
   color: var(--pressed-state);
 }
 
+.auth-nav-first {
+  margin-right: 40px;
+}
 /* hero */
 
 .hero {
