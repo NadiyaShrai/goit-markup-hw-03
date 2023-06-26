@@ -157,3 +157,7 @@
   color: var(--white-background);
   background-color: var(--pressed-state);
 }
+
+img {
+  display: block;
+}
