@@ -292,11 +292,7 @@ img {
   letter-spacing: 0.04em;
   padding: 12px 24px;
   border-radius: 4px;
-
-  /* new */
-  box-sizing: border-box;
   border: 1px solid var(--accent);
-  border-top: none;
 }
 
 .sorting {
