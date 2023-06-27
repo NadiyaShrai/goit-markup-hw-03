@@ -292,7 +292,7 @@ img {
   letter-spacing: 0.04em;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--accent, #e7e9fc);
+  border: 1px solid var(--accent);
   border-top: none;
 }
 
