@@ -226,6 +226,14 @@ img {
 .advantages-card {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+/* What are we doing */
+.doing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 /* TEAM */
 
 .section-team {
