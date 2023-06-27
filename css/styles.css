@@ -234,6 +234,10 @@ img {
   gap: 24px;
 }
 
+.doing-card {
+  flex-basis: calc((100% - 2 * 24) / 3);
+}
+
 /* TEAM */
 
 .section-team {
