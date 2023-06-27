@@ -295,6 +295,11 @@ img {
   border: 1px solid var(--accent, #e7e9fc);
 }
 
+.sorting {
+  box-sizing: border-box;
+  padding: 96px 0 120px;
+}
+
 .sorting-button:hover,
 .sorting-button:focus {
   color: var(--white-background);
@@ -317,4 +322,5 @@ img {
 
 .portfolio-card-wrapper {
   padding: 32px 16px;
+  border: 1px solid var(--accent);
 }
