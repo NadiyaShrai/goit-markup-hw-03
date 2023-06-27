@@ -11,6 +11,20 @@
   --modal-background: #fcfcfc;
 }
 /*       Reset default styles */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -36,15 +50,16 @@ img {
 }
 
 /*       BODY        */
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 .page {
   color: var(--text);
   background-color: #fff;
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -55,7 +70,6 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .page-header-container {
@@ -105,6 +119,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--pressed-state);
@@ -149,7 +164,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 48px;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -202,17 +217,8 @@ img {
 }
 
 /*  Advantages   */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.main-description {
+  padding: 120px 0;
 }
 
 .advantages {
@@ -226,6 +232,10 @@ img {
 }
 
 /* What are we doing */
+
+.main-work {
+  padding-bottom: 120px;
+}
 .doing {
   display: flex;
   flex-wrap: wrap;
@@ -238,8 +248,10 @@ img {
 
 /* TEAM */
 
-.section-team {
+.main-team {
   background-color: var(--light);
+  box-sizing: border-box; /* not sure  */
+  padding: 120px 0;
 }
 
 .team-card {
@@ -254,7 +266,7 @@ img {
   gap: 24px;
 }
 
-.team-card-wrapper {
+con.team-card-wrapper {
   padding: 32px 16px;
   padding-top: 32px;
   text-align: center;
@@ -277,9 +289,12 @@ img {
 }
 .container .link {
   display: inline-block;
-  margin-bottom: 16px;
 }
-
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
 /* ----Portfolio-----  */
 
 .sorting-button {
@@ -312,7 +327,6 @@ img {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .portfolio-card {
