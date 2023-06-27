@@ -314,3 +314,7 @@ img {
   flex-wrap: wrap;
   gap: 24px;
 }
+
+.portfolio-card-wrapper {
+  padding: 32px 16px;
+}
