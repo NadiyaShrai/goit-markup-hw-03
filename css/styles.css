@@ -271,12 +271,15 @@ img {
   color: var(--light);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 18px;
   width: 264px;
 }
 
 .footer .logo-part {
   color: var(--light);
+}
+.container .link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* ----Portfolio-----  */
