@@ -265,11 +265,14 @@ img {
 
 .footer {
   background-color: var(--dark);
+  padding: 100px 0;
 }
 .footer-text {
   color: var(--light);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 18px;
+  width: 264px;
 }
 
 .footer .logo-part {
