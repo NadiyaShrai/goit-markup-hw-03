@@ -320,7 +320,11 @@ img {
 .portfolio-card {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+}
+
+.portfolio-card:not(:nth-last-child(-n + 3)) {
+  row-gap: 48px;
 }
 
 .portfolio-card-wrapper {
