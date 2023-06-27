@@ -225,7 +225,7 @@ img {
 }
 
 .team-card-wrapper {
-  padding-bottom: 32px;
+  padding: 32px 16px;
   padding-top: 32px;
   text-align: center;
 }
